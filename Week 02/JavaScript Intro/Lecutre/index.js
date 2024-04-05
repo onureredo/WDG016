@@ -33,7 +33,7 @@
 //   console.log('condition is false');
 // }
 
-const firstCondition = 0;
+// const firstCondition = 0;
 // const secondCondition = 0;
 
 // if (firstCondition && secondCondition) {
@@ -168,11 +168,11 @@ const firstCondition = 0;
 //   console.log(`Hello ${friendList[i]}, you are invited to my birthday party`);
 // }
 
-let name = 'Frank';
+// let name = 'Frank';
 
-if (name === 'Frank') {
-  let name = 'Clara';
-  console.log('Blocked Scope:', name);
-}
+// if (name === 'Frank') {
+//   let name = 'Clara';
+//   console.log('Blocked Scope:', name);
+// }
 
-console.log('Global Scope:', name);
+// console.log('Global Scope:', name);
