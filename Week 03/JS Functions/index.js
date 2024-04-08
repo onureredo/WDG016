@@ -50,3 +50,15 @@ function hello(name = 'John Doe') {
 
 // console.log(hello());
 // console.log(hello('Bob'));
+
+const factorial = function (number) {
+  if (number <= 0) {
+    return 1;
+  } else {
+    return number * factorial(number - 1);
+  }
+};
+
+// https://www.jshero.net/koans/recursion.html
+
+console.log(factorial(6));
