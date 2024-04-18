@@ -1,4 +1,5 @@
-import Counter from './components/Counter';
+import Advanced from './components/Advanced';
+import Basic from './components/Basic';
 import Instructions from './instructions/Instructions';
 import './styles.css';
 
@@ -7,7 +8,8 @@ export default function App() {
     <div className='App'>
       <Instructions />
       <div className='block'>
-        <Counter />
+        {/* <Basic /> */}
+        <Advanced />
       </div>
     </div>
   );
