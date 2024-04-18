@@ -1,12 +1,19 @@
-import Instructions from './instructions/Instructions';
-import './styles.css';
+import { useState } from 'react';
 
-export default function App() {
+function FirstLevel() {
+  const [isOn, setIsOn] = useState(false);
+
+  const handleClick = () => {
+    setIsOn(!isOn);
+    console.log(isOn);
+  };
+
   return (
-    <div className='App'>
-      <Instructions />
-      <div className='block'>
-        <button> Turn me on! </button>
+    <>
+      <div className={`block ${isOn ? 'night' : ''}`}>
+        <button onClick={handleClick}>
+          {isOn ? 'Turn me off!' : 'Turn me on!'}{' '}
+        </button>
         <div className='container'>
           <div className='bulb-light'>
             <div id='light' />
@@ -35,6 +42,8 @@ export default function App() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
+
+export default FirstLevel;
