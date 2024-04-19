@@ -16,12 +16,27 @@ const Level2 = () => {
           how to customize your map.
           <ul>
             <li>
-              You component MyMap should be given two props: <i>lng</i> and{' '}
+              You component MyMap should be given two props: <i>lng</i> and
               <i>lat</i>
             </li>
             <li>
               Render this map inside one of the tabs created with react-tabs,
               using the given props to center both map and pin.
+            </li>
+            <li>
+              <p>React Leaflet Stylesheet</p>
+              <p>
+                <em>import 'leaflet/dist/leaflet.css';</em>
+              </p>
+              <p>
+                <em>import icon from 'leaflet/dist/images/marker-icon.png';</em>
+              </p>
+              <p>
+                <em>
+                  import iconShadow from
+                  'leaflet/dist/images/marker-shadow.png';
+                </em>
+              </p>
             </li>
           </ul>
         </li>

@@ -14,6 +14,12 @@ const Level1 = () => {
           Display different content for each tab, you are free to choose what
           and can be as simple or as complex as you like!
         </li>
+        <li>
+          <p>React Tabs Stylesheet</p>
+          <p>
+            <em>import 'react-tabs/style/react-tabs.css';</em>
+          </p>
+        </li>
       </ul>
     </>
   );
